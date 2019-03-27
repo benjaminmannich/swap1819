@@ -1,4 +1,4 @@
-#Práctica 1 - Preparación de las herramientas
+# Práctica 1 - Preparación de las herramientas
 Tras crear las máquinas virtuales necesarias (Ubuntu Server 1 y Ubuntu Server 2) e instalar los programas necesarios (Apache, cURL, SSH, PHP, MySQL) en cada una, nos aseguramos que el servidor está en ejecución:
 
 ![imagen](https://github.com/benjaminmannich/swap1819/blob/master/Practica%201/Screenshots/ApacheWorkingServer1.png)
