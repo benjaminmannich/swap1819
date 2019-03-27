@@ -26,4 +26,4 @@ y accedemos mediante SSH de una a la otra:
 Una vez que hemos conseguido esto cargamos la web de prueba, que creamos anteriormente, mediante curl. Primero cargaremos en el server 2 la pagina del server 1, y luego la del server 1 en el server 2.
 
 ![imagen](https://github.com/benjaminmannich/swap1819/blob/master/Practica%201/Screenshots/CurlServer1.png)
-![imagen](https://github.com/benjaminmannich/swap1819/blob/master/Practica%201/Screenshots/CURLServer2.png)
+![imagen](https://github.com/benjaminmannich/swap1819/blob/master/Practica%201/Screenshots/CurlServer2.png)
