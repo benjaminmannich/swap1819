@@ -15,8 +15,8 @@ Pagina almacenada en Server <num server>
 
 Ahora, en VirtualBox, permitimos la conexión entre ambas máquinas. En mi caso he hecho esto creando una red NAT y conectando ambas maquinas a ella. 
 Tras esto averiguamos la IP de cada maquina y comprobamos que existe conexión entre ellas (ping):
-![imagen](https://github.com/benjaminmannich/swap1819/blob/master/Practica\ 1/Screenshots/Server1Ping.png)
-![imagen](https://github.com/benjaminmannich/swap1819/blob/master/Practica\ 1/Screenshots/Server2Ping.png)
+![imagen](https://github.com/benjaminmannich/swap1819/blob/master/Practica%201/Screenshots/Server1Ping.png)
+![imagen](https://github.com/benjaminmannich/swap1819/blob/master/Practica%201/Screenshots/Server2Ping.png)
 
 y accedemos mediante SSH de una a la otra:
 
