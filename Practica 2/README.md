@@ -1,6 +1,6 @@
 # Práctica 2. Clonar la información de un sitio web
 ## Copia de archivos por SSH
-Para la copia de archivos mediante SSH simplemente seguimos los pasos que se indican en el guión de practicas y los cuales también podemos observar en la captura de pantalla:
+Para la copia de archivos mediante SSH simplemente seguimos los pasos que se indican en el guión de prácticas, los cuales también podemos observar en la siguiente captura de pantalla:
 
 ![imagen](https://github.com/benjaminmannich/swap1819/blob/master/Practica%202/Screenshots/sendFileSSH.png)
 
@@ -21,7 +21,7 @@ Y luego mandarle la clave publica a **ubuntu1**, tal y como se muestra en la cap
 
 ![imagen](https://github.com/benjaminmannich/swap1819/blob/master/Practica%202/Screenshots/sendPublicKey.png)
 
-Comprobamos que la clave publica de **ubuntu2** se ha guardado en **ubuntu1** en el archivo *~/.ssh/authorized_keys:
+Comprobamos que la clave publica de **ubuntu2** se ha guardado en **ubuntu1** en el archivo *~/.ssh/authorized_keys*:
 
 ![imagen](https://github.com/benjaminmannich/swap1819/blob/master/Practica%202/Screenshots/publicKeyOnServer1.png)
 
@@ -34,6 +34,6 @@ Añadimos nuestra orden al archivo */etc/crontab*. La orden a añadir la podemos
 
 ![imagen](https://github.com/benjaminmannich/swap1819/blob/master/Practica%202/Screenshots/crontabContent.png)
 
-Y ya observamos como a la hora indicada (todas las horas en el minuto 0) se actualiza el la carpeta:
+Y ya observamos como a la hora indicada (todas las horas al minuto 0) se actualiza el la carpeta:
 
 ![imagen](https://github.com/benjaminmannich/swap1819/blob/master/Practica%202/Screenshots/crontabWorking.png)
