@@ -1,6 +1,6 @@
 # Práctica 4. Asegurar la granja web
 ## Instalar certificado SSL autofirmado
-En esta captura vemos que no es posible el acceso con https, por lo tanto procederemos a activarlo.
+En esta captura vemos que no es posible el acceso con HTTPS, por lo tanto procederemos a activarlo.
 
 ![imagen](https://github.com/benjaminmannich/swap1819/blob/master/Practica%204/Images/WithoutSSLcertificate.png)
 
@@ -31,7 +31,7 @@ apache2 reload
 ```
 ![imagen](https://github.com/benjaminmannich/swap1819/blob/master/Practica%204/Images/ActivateSSL.png)
 
-Y observamos como ahora si es posible el acceso con https:
+Y observamos como ahora si es posible el acceso con HTTPS:
 
 ![imagen](https://github.com/benjaminmannich/swap1819/blob/master/Practica%204/Images/WithSSLCertificate.png)
 
@@ -59,7 +59,7 @@ Obsevamos que ahora estan activadas todas las reglas que definimos en el script:
 
 ![imagen](https://github.com/benjaminmannich/swap1819/blob/master/Practica%204/Images/IPTABLESFuncionando.png)
 
-Y vemos que si hacemos una petición http o https al servidor si la acepta pero cualquier otro tipo de peticion no (por ejemplo una peticion ping):
+Y vemos que si hacemos una petición HTTP o HTTPS al servidor si la acepta, pero cualquier otro tipo de petición no (por ejemplo una petición ping):
 
 ![imagen](https://github.com/benjaminmannich/swap1819/blob/master/Practica%204/Images/PeticionHTTPSPING.png)
 
@@ -83,7 +83,7 @@ Ahora en el segundo servidor activamos "default-ssl" (al igual que en el servido
 
 ![imagen](https://github.com/benjaminmannich/swap1819/blob/master/Practica%204/Images/ActivateSSLServer2.png)
 
-En el balanceador nginx debemos añadir lo siguiente al archivo /etc/nginx/conf.d/default.conf y reiniciarlo:
+En el balanceador nginx debemos añadir lo siguiente al archivo "/etc/nginx/conf.d/default.conf" y reiniciarlo:
 
 ![imagen](https://github.com/benjaminmannich/swap1819/blob/master/Practica%204/Images/BalConf.png)
 
